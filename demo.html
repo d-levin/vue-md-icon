@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Demo</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="dist/v-icon.min.js"></script>
+  <script>
+    /* eslint-disable no-undef, no-new */
+    Vue.use(VIcon);
+    new Vue({
+      el: '#app',
+      template: `
+        <div>
+          <v-icon name="face" size="small"></v-icon>
+          <v-icon name="face" size="medium"></v-icon>
+          <v-icon name="face" size="large"></v-icon>
+          <v-icon name="face" size="largest"></v-icon>
+          <v-icon name="face" color="red"></v-icon>
+          <v-icon name="face" color="green"></v-icon>
+          <v-icon name="face" color="blue"></v-icon>
+          <v-icon name="face" :rotate-deg="45"></v-icon>
+          <v-icon name="face" :rotate-deg="90"></v-icon>
+          <v-icon name="face" :rotate-deg="135"></v-icon>
+          <v-icon name="face" :rotate-deg="180"></v-icon>
+          <v-icon name="face" :rotate-deg="225"></v-icon>
+          <v-icon name="face" :rotate-deg="270"></v-icon>
+          <v-icon name="face" :rotate-deg="315"></v-icon>
+          <VIcon name="person"/>
+        </div>
+      `,
+    });
+  </script>
+</body>
+</html>
