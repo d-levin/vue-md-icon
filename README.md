@@ -16,6 +16,7 @@ npm i -S vue-md-icon
 ```
 
 ### Installation
+> Material Design Icons stylesheet must be added for this component to work
 ##### Browser
 ```html
 <link href="path-to-material-design-icons" rel="stylesheet">
