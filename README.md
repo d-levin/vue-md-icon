@@ -16,6 +16,7 @@ npm i -S vue-md-icon
 ```
 
 ### Installation
+> Material Design Icons stylesheet must be added for this component to work
 ##### Browser
 ```html
 <link href="path-to-material-design-icons" rel="stylesheet">
@@ -42,9 +43,9 @@ or
 ```
 
 ### Props
-| Prop | Type | Options | Example |
-| ---- | ---- | ------- | ------- |
-| `name`      | `String` | Any valid Material Design icon name (separate words with _ (underscore) | `face`, `exit_to_app`    |
-| `color`     | `String` | Any valid CSS color                                                     | `red`, `#fff`, `#cc9900` |
-| `size`      | `String` | `small`, `medium` (default), `large`, `largest`                         | `small`                  |
-| `rotateDeg` | `Number` | Integer value                                                           | `45`, `180`              |
+| Prop | Required | Type | Options | Example |
+| ---- | -------- | ---- | ------- | ------- |
+| `name`      | Yes | `String` | Any valid Material Design icon name (separate words with _ (underscore) | `face`, `exit_to_app`    |
+| `color`     | No  | `String` | Any valid CSS color                                                     | `red`, `#fff`, `#cc9900` |
+| `size`      | No  | `String` | `small`, `medium` (default), `large`, `largest`                         | `small`                  |
+| `rotateDeg` | No  | `Number` | Integer value                                                           | `45`, `180`              |
