@@ -18,6 +18,7 @@ npm i -S vue-md-icon
 ### Installation
 ##### Browser
 ```html
+<link href="path-to-material-design-icons" rel="stylesheet">
 <script src="path-to-vue.js"></script>
 <script src="v-icon.min.js"></script>
 <script>
@@ -27,7 +28,7 @@ npm i -S vue-md-icon
 
 ##### Module
 ```javascript
-import VIcon from 'v-icon';
+import VIcon from 'vue-md-icon';
 ```
 
 ### Usage
